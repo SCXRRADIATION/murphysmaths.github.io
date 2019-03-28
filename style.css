@@ -7,7 +7,12 @@
 }
 
 .parallax {
-  min-height: 500px;
+  padding:  100px 35px;
   background: transparent;
+}
 
+.videopagelink{
+
+    z-index: 2;
+    position: relative;  
 }

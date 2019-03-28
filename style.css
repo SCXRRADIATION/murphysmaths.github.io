@@ -1,12 +1,12 @@
 .container{
   max-width: 960px;
   margin: 0 auto;
-  background : #f9f9f9
+  background :#3a3333
   font-size: 24px;
   padding: 25px;
 }
 .parallax{
-  background: url('testsky.jpeg') no-repeat center;
+  background: url(Images/'testsky.jpeg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   height: 500px;

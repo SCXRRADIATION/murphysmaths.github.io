@@ -8,6 +8,6 @@
 .parallax{
   background: url('testsky.jpeg') no-repeat center;
   background-size: cover;
-  bckground-attachment: fixed;
+  background-attachment: fixed;
   height: 500px;
 }

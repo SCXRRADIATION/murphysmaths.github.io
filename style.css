@@ -5,9 +5,9 @@
   font-size: 24px;
   padding: 25px;
 }
-.parallax{
-  background: url('testsky.jpeg') no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 500px;
+
+.parallax {
+  min-height: 500px;
+  background: transparent;
+
 }

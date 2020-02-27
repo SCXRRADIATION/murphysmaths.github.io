@@ -3,8 +3,15 @@
 <html>
   <head>
   <style>
+    <script>
+    // This function changes the background color of the website
+    function changeBGColor(BGColor)
+    {
+      document.body.style.background = color;
+    }
+    </script>
        body {
-  background-color: #121212;
+  //background-color: #121212;
 }
 
 h1 {
@@ -61,8 +68,8 @@ a:active {
       <h1>Welcome to Murphy's Maths</h1>  
       <p> Hello! This website is dedicated to help people understand various Mathematical topics.</p>
       <h1>Who I am</h1>
-      <p>My name is Seamus Murphy working as a teacher at a secondary school in the UK, and I love to teach other young people achieve thier dream career. Hopefully I can help other people from across the world the same way I teach at the school I work at!</p>
-
+      <p>My name is Seamus Murphy working, as a teacher at a secondary school in the UK, and I love to teach other young people achieve thier dream career. Hopefully I can help other people from across the world the same way I teach at the school I work at!</p>
+ 
       
       <p class="videopagelink"></p>
       <div class="parallax" data-parallax="scroll" data-z-index="1"
@@ -77,6 +84,8 @@ a:active {
           <img src="contexpagebutton.png">
           </a>
       </p>
+      
+      <button type="button" onclick="changeBGColor(#121212);">Dark Mode</button>
       
       <h5>Website created by Tayler Parsons</h5>
       <h5>Backend powered by <a href="https://www.ryanbester.com/?utm_source=murphysmaths&utm_medium=website" title="ryanbester.com">ryanbester.com</a></h5>
